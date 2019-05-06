@@ -1,0 +1,6 @@
+numpy
+scipy
+PyWavelets
+numba
+tqdm
+sigpy
