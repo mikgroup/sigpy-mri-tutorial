@@ -1,14 +1,17 @@
 # SigPy for MRI Tutorial
 
-This repo contains notebooks for MRI reconstruction.
+
+This repo contains the following notebooks:
+
+- 01-gridding-reconstruction.ipynb
+- 02-parallel-imaging-compressed-sensing-reconstruction.ipynb
+- 03-building-a-l1-wavelet-recon-app.ipynb
 
 
-- 01-non-uniform-fast-fourier-transform.ipynb
-- 02-parallel-imaging-compressed-sensing-recon.ipynb
-- 03-build-a-pics-app.ipynb
+Some topics that are not covered in depth or at all:
 
-
-Some topics that are not covered in this tutorial:
-
-- Using Multi-CPU and GPUs using MPI
-- Dynamic MRI reconstruction
+- Non-Cartesian support in MRI Apps.
+- MRI simulation functions, such as generating Poisson disk sampling using `poisson`.
+- Plotting functions.
+- Multi-CPU and GPUs using MPI.
+- PyTorch interopability.
