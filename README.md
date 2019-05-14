@@ -11,7 +11,7 @@ There are three parts of the tutorial:
 3. [Buiding a Parallel Imaging Compressed Sensing App](03-building-an-l1-wavelet-recon-app.ipynb): This notebook shows how to create an L1 wavelet regularized reconstruction App from scratch.
 
 
-Some topics that are not covered in depth or at all:
+Some topics that are not covered in this tutorial:
 
 - Non-Cartesian support in MRI Apps.
 - MRI simulation functions, such as generating Poisson disk sampling using `poisson`.
